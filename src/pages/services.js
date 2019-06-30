@@ -10,23 +10,25 @@ import {cardimg} from '../components/Reusable/ImagesUrl'
 
 const IndexPage = ({data}) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Services" />
     
     <HeroSection
-        heroclass="hero-background"
+        heroclass="services-background"
         img={data.img.childImageSharp.fluid}
-        title="Welcome to Gatsby project"
-        subtitle="This is fun learning" 
+        title="Services"
+        subtitle="" 
     
     />
 
-    <InfoBlock 
-        heading="About Us"
-      />
+  
 
     <DualInfoBlock  
       img={cardimg}
-      title="Our Team"/>
+      title="Our Services" />
+
+    <InfoBlock 
+        heading="Our Services"
+      />
 
   </Layout>
 )
@@ -34,7 +36,7 @@ const IndexPage = ({data}) => (
 
 export const query = graphql`
 {
-  img : file(relativePath: { eq: "heromain.png" }) {
+  img : file(relativePath: { eq: "about.jpg" }) {
     childImageSharp {
       fluid{
         ...GatsbyImageSharpFluid_tracedSVG

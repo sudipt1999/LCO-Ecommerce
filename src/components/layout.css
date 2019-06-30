@@ -2,7 +2,31 @@
   font-size: 2rem;
 }
 
+.bg-theme{
+  background-color: cornflowerblue;
+}
 
 .fa.fa-navicon {
   color:white;
+}
+
+
+.hero-background{
+  min-height: 90vh;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.services-background{
+  min-height: 40vh;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.card-image{
+  height:200px !important;
 }
