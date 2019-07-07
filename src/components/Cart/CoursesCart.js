@@ -37,7 +37,7 @@ export default class CoursesCart extends Component {
                                                 data-item-id={node.id}
                                                 data-item-name={node.title}
                                                 data-item-price={node.price}
-                                                data-item-url=""
+                                                data-item-url="https://elastic-hawking-06b6a8.netlify.com/"
                                                 data-item-image={node.image.fixed.src}
                                               >
                                                 Join Now
