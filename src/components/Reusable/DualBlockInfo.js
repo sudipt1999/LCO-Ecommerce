@@ -18,12 +18,12 @@ export default function DualBlockInfo({title, img}) {
                 <div className="col-3 p-2">
                     <div className="mx-auto">
                     <div className="card bg-dark">
-                            <img className="card-img-top card-image"  src={img} alt="Card image cap" />
+                            <img className="card-img-top card-image"  src={img} alt="Card  cap" />
                             <div className="card-body text-white">
                                 <h5 className="card-title">Go Somewhere</h5>
                                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <Link to='/'>
-                                    <a href="#" className="btn btn-success btn-block">{title}</a>
+                                    <a href="/" className="btn btn-success btn-block">{title}</a>
                                 </Link>
                             </div>
                     </div>
